@@ -77,21 +77,24 @@ header {
 
 .nav-social {
   display: flex;
+  align-items: center;
 
   svg {
     cursor: pointer;
 
-    margin-right: 16px;
+    margin-left: 16px;
     width: 24px;
 
     path,
-    circle {
+    circle,
+    rect {
       transition: 0.7s ease;
     }
 
     &:hover {
       path,
-      circle {
+      circle,
+      rect {
         fill: $red-light;
         transform: translate3d(0, -3px, 0);
       }

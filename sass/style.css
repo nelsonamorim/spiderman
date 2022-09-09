@@ -93,18 +93,21 @@ header {
 
 .nav-social {
   display: flex;
+  align-items: center;
 }
 .nav-social svg {
   cursor: pointer;
-  margin-right: 16px;
+  margin-left: 16px;
   width: 24px;
 }
 .nav-social svg path,
-.nav-social svg circle {
+.nav-social svg circle,
+.nav-social svg rect {
   transition: 0.7s ease;
 }
 .nav-social svg:hover path,
-.nav-social svg:hover circle {
+.nav-social svg:hover circle,
+.nav-social svg:hover rect {
   fill: #f02a2f;
   transform: translate3d(0, -3px, 0);
 }/*# sourceMappingURL=style.css.map */
